@@ -61,23 +61,14 @@
         align-items: center;
         height: 5rem;
     }
-    
-    // #about-a .about-info {
-    //     display: grid;
-    //     grid-template-areas:
-    //         "bioimage" "bio"
-    //         'aw1' 'aw2' 'aw3';
-    //     grid-gap: 1.2rem;
-    //     grid-template-columns: repeat(1, 1fr);
-    // }
-
     #about-a .about-info {
         display: grid;
         grid-template-areas:
-            "bioimage" "bio"
-            'aw1' 'aw2' 'aw3';
-        grid-gap: 1.2rem;
-        grid-template-columns: repeat(1, 1fr);
+            "bioimage"
+            "bio"
+            'aw1'
+            'aw2'
+            'aw3';
     }
     #contact-a .text-fields {
         display: grid;
